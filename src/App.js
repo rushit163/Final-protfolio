@@ -15,14 +15,6 @@ import { useState } from "react";
 import { Header } from "./components/Header/Header";
 
 function App() {
-  console.log(
-    "%cThank you for checking up of my portfolio. Wishing you the best for every step in your journey!🎉",
-    "color: white; font-weight: 500; font-size:16px"
-  );
-  console.log(
-    "%cYou can check the code here https://github.com/monciego/portfolio",
-    "color: white; font-weight: 500; font-size:16px"
-  );
 
   const [open, setOpen] = useState(true);
 
@@ -35,7 +27,6 @@ function App() {
       <ThemeProvider theme={theme}>
         <>
           <GlobalStyles />
-          {open && <Modal toggleHandler={toggleHandler} />}
           {!open && <Header />}
           <Navbar />
           <Home />

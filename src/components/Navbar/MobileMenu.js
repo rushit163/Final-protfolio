@@ -33,7 +33,7 @@ const MobileMenu = ({ isOpen, toggle }) => {
           Playground
         </MobileMenuLink>
         <MobileButton
-          href="mailto:jerichobantiquete@gmail.com "
+          href="mailto:rushitpatel163@gmail.com "
           target="_blank"
           rel="noreferrer"
         >
@@ -55,14 +55,14 @@ const MobileMenu = ({ isOpen, toggle }) => {
       </MobileMenuList>
       <MobileSocials>
         <MobileSocial
-          href="mailto:jerichobantiquete@gmail.com"
+          href="mailto:rushitpatel163@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
         >
           Gm
         </MobileSocial>
         <MobileSocial
-          href="https://github.com/monciego"
+          href="https://github.com/rushit163"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -70,14 +70,13 @@ const MobileMenu = ({ isOpen, toggle }) => {
         </MobileSocial>
 
         <MobileSocial
-          href="https://www.linkedin.com/in/jericho-bantiquete-450541179/"
+          href="https://www.linkedin.com/in/rushit-patel-61382b156/"
           target="_blank"
           rel="noopener noreferrer"
         >
           ln
         </MobileSocial>
       </MobileSocials>
-      <MobileQuote>travaille pour ça</MobileQuote>
     </MobileMenuContainer>
   );
 };

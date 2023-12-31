@@ -15,7 +15,7 @@ const Playground = () => {
         <SectionTitle number="03">Playground</SectionTitle>
       </SectionHeading>
       <StyledParagraph dark="true" textAlign="center">
-        A collection of projects that I've created for practice and leisure.
+        A collection of self improvements I've done so far.
       </StyledParagraph>
       <PlaygroundProjectContainer>
         {projectsData.map((project) => {

@@ -3,14 +3,7 @@ import styled from "styled-components";
 import { ModalLink } from "../styles/Modal.styled";
 
 export const Header = () => {
-  return (
-    <StyledHeader>
-      This site is no longer updated. Go to &nbsp;
-      <ModalLink href="https://jerichobantiquete.vercel.app/">
-        jerichobantiquete.vercel.app
-      </ModalLink>
-    </StyledHeader>
-  );
+  
 };
 
 const StyledHeader = styled.header`

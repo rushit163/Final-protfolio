@@ -13,6 +13,7 @@ import github from "../../assets/technologies/github.svg";
 import figma from "../../assets/technologies/figma.svg";
 import adobexd from "../../assets/technologies/adobexd.svg";
 import vscode from "../../assets/technologies/visual-studio-code.svg";
+import mongodb from '../../assets/technologies/MongoDb.jpeg'
 
 export const iconsData = [
   {
@@ -63,8 +64,8 @@ export const iconsData = [
   },
   {
     id: 10,
-    icon: laravel,
-    name: "PHP Laravel",
+    icon: mongodb,
+    name: "MongoDb",
   },
   {
     id: 11,
@@ -83,11 +84,6 @@ export const iconsData = [
   },
   {
     id: 14,
-    icon: adobexd,
-    name: "Adobe XD",
-  },
-  {
-    id: 15,
     icon: vscode,
     name: "Visual Studio Code",
   },

@@ -31,6 +31,7 @@ export const StyledNavbar = styled.nav`
 `;
 
 export const NavLogo = styled.img`
+  height : 2.75rem;
   cursor: pointer;
   color: red;
 `;

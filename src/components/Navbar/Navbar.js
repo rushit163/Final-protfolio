@@ -9,7 +9,7 @@ import {
   StyledNavbar,
   StyledNavLinks,
 } from "../styles/Navbar.styled";
-import logo from "../../assets/logo.svg";
+import RushitLogo from "../../assets/RushitLogo.png";
 import { animateScroll as scroll } from "react-scroll";
 import MobileMenu from "./MobileMenu";
 
@@ -39,7 +39,7 @@ const Navbar = () => {
   return (
     <StyledNavbar className={stickyNav ? "sticky" : ""}>
       <div>
-        <NavLogo to="/" onClick={toTop} src={logo} alt="logo" />
+        <NavLogo to="/" onClick={toTop} src={RushitLogo} alt="logo" />
       </div>
       <NavMenuList>
         <NavList>
@@ -100,7 +100,7 @@ const Navbar = () => {
         </NavList>
       </NavMenuList>
       <StyledCTA
-        href="mailto:jerichobantiquete@gmail.com "
+        href="mailto:rushitpatel163@gmail.com "
         target="_blank"
         rel="noreferrer"
       >
