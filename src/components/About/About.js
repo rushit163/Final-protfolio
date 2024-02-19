@@ -27,8 +27,8 @@ const About = () => {
         <AboutDetailsContainer>
           <StyledParagraph>
             My name is Rushit Patel, currently pursuing Bachelor of
-            Science in Information Technology in Pangasinan State University. I
-            am a passionate front-end developer based in Philippines.
+            Science in Computer Science in SRM University. I
+            am a passionate front-end developer based in India.
           </StyledParagraph>
           <StyledParagraph>
             I love to design and create responsive websites or web apps from

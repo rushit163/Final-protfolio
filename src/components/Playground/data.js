@@ -4,7 +4,7 @@ export const projectsData = [
   {
     id: 1,
     projectName: "Won a Hackathon",
-    liveLink: "https://dribble-clone.netlify.app/",
+    liveLink: "",
     hasLink: false,
     img: certificate,
   },
